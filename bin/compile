@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-echo "Builds are currently disabled for this app."
-exit 1
+env
+exit 0
