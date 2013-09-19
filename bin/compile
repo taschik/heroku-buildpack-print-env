@@ -1,4 +1,11 @@
 #!/usr/bin/env bash
 
+echo "env:"
 env
+
+echo "---"
+
+echo "git config --list"
+git config --list
+
 exit 0
