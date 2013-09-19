@@ -8,4 +8,9 @@ echo "---"
 echo "git config --list:"
 git config --list
 
+echo "---"
+
+echo "git show:"
+git show
+
 exit 0
