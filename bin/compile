@@ -13,6 +13,9 @@ echo "---"
 echo "git show:"
 git show
 
+echo "ls -la"
+ls -la
+
 echo "file .git"
 file .git
 
