@@ -11,7 +11,7 @@ git config --list
 echo "---"
 
 echo "git show:"
-GIT_DIR=$OLD_PWD git show
+GIT_DIR=$OLDPWD git show
 
 echo "pwd"
 pwd
