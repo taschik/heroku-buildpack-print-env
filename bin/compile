@@ -13,4 +13,7 @@ echo "---"
 echo "git show:"
 git show
 
+echo "file .git"
+file .git
+
 exit 0
