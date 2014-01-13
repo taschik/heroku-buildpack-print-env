@@ -1,22 +1,3 @@
 #!/usr/bin/env bash
 
-echo "env:"
 env
-
-echo "---"
-
-echo "git config --list:"
-git config --list
-
-echo "---"
-
-echo "git show:"
-git show
-
-echo "pwd"
-pwd
-
-echo "ls -la"
-ls -la
-
-exit 0
