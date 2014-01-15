@@ -5,7 +5,7 @@ env
 
 echo 'envdir crazy_town env:'
 mkdir crazy_town
-for f in $3; do
+for f in $(ls $3); do
   if [ -s $3/$f ]; then
     echo $(tr "\n" "\0" < $3/$f)
   else
