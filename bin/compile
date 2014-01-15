@@ -12,7 +12,7 @@ for f in $(ls $3); do
   if [ -s $3/$f ]; then
     tr "\n" "\0" > $1/crazy_town/$f < $3/$f
   else
-    echo "\n" > $1/crazy_town/$f
+    echo "" > $1/crazy_town/$f
   fi
 done
 envdir $1/crazy_town env
