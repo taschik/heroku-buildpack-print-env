@@ -3,6 +3,8 @@ set -x
 echo 'env:'
 env
 
+cp -r $3 $1/happy_town
+
 echo 'envdir crazy_town env:'
 mkdir -p $1/crazy_town
 for f in $(ls $3); do
