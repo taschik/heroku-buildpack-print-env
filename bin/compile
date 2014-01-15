@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -x
+
 echo 'env:'
 env
 
@@ -15,3 +16,12 @@ for f in $(ls $3); do
   fi
 done
 envdir $1/crazy_town env
+
+echo 'env (again):'
+env
+
+echo 'export and env'
+for f in $(ls $3); do
+  export "$f=$(cat $f)" 
+done
+env
