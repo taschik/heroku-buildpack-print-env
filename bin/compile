@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
 env
+echo "------------------"
 find $(echo $GI_TYPELIB_PATH | cut -f1 -d:)
+echo "------------------"
+find $(echo $GI_TYPELIB_PATH | cut -f1 -d:)/../../../
