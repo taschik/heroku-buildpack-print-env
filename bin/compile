@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
 env
+find $(echo $GI_TYPELIB_PATH | cut -f1 -d:)
